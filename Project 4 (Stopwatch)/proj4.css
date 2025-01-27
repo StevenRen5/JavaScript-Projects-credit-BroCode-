@@ -1,0 +1,26 @@
+body{
+    background-image: url(download.jpg);
+    background-position: center;
+    background-repeat: no-repeat; /* if bg repeats */
+    background-size: cover; /* image will cover entire window */
+    background-attachment: fixed; /* background stay in place if more content to view */
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* line 8 & 9 to line center vertically */
+    height: 100vh; 
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px); /* background blur effect */
+    background-color: hsla(0, 0%, 100%, 0.1); /* last # increase lightness */
+    width: 100%; /* take up entire width */
+}
